@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url('https://fonts.googleapis.com/css?family=Stylish:400');
+
+*{
+    box-sizing: border-box;
+}
+h1 {
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 1;
+    font-family: "Stylish";
+    text-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+body{
+    background-image: url(./gift.jpeg);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    min-height: 100vh;
+    color: dimgrey;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+    text-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+    width:200px;
+    height:200px;
+    border-radius:20%;
+    background:#ffffff;
+    text-align:center;
+    line-height:200px;
+    color: burlywood;
+}
+
+.count {
+    text-align: center;
+    color: dimgrey;
+}
+
+.count span{
+    font-size: 1.4rem;
+}
+
